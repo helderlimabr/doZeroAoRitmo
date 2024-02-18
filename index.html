@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="data:,">
+    <title>Do Zero ao Play</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="capa-album"></div>
+        <div class="area-player"></div>
+        <div class="container-lista-musicas">
+            <table class="table-musicas" id="playerlist">
+                <tr>
+                    <td class="numero">
+                        <h5>1</h5>
+                    </td>
+                    <td class="titulo">
+                        <h6>Tenha fé</h6>
+                    </td>
+                    <td class="tempo">
+                        <h5>3:25</h5>
+                    </td>
+                    <td class="tempo">
+                        <i class="fas fa-heart"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="numero">
+                        <h5>2</h5>
+                    </td>
+                    <td class="titulo">
+                        <h6>Undo</h6>
+                    </td>
+                    <td class="tempo">
+                        <h5>3:10</h5>
+                    </td>
+                    <td class="tempo">
+                        <i class="fas fa-heart"></i>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td class="numero">
+                        <h5>3</h5>
+                    </td>
+                    <td class="titulo">
+                        <h6>Meu Sonho</h6>
+                    </td>
+                    <td class="tempo">
+                        <h5>3:15</h5>
+                    </td>
+                    <td class="tempo">
+                        <i class="fas fa-heart"></i>
+                    </td>                    
+                </tr>
+            </table>
+        </div>
+        <div class="barra-progresso">
+            <div class="ponto"></div>
+            <div class="tempo">
+                <div class="tempo-corrente">0:00</div>
+                <div class="duracao">0:00</div>
+            </div>
+        </div>
+        <div class="info">
+            <h2>Undo</h2>
+            <h3>Dirty Loops</h3>
+        </div>
+        <div class="btns-player">
+            <i class="fas fa-backward" id="voltar"></i>
+            <i class="fas fa-play" id="play"></i>
+            <i class="fas fa-forward" id="passar"></i>
+        </div>
+        <div class="btns-funcionalidades">
+            <i class="fas fa-heart" id="titulo-favorito"></i>
+            <i class="fas fa-random" id="random"></i>
+            <i class="fas fa-repeat" id="repeat"></i>
+            <i class="fas fa-gear" id="config" ></i>
+        </div>
+        <p class="titulo-atual">Tenha Fé</p>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
